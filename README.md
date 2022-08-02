@@ -16,7 +16,7 @@
 
 - botu başlatmak için `node shard.js`
 
-Altyapı 2021den kalmıştır minecraft sunucum için bot yaptığımdan dolayı paylaşmak istedim. Altyapıya güncelleme gelmiyecektir hata varsa discord `Thelonelord#1972`
+Altyapı 2021'den kalmıştır minecraft sunucum için bot yaptığımdan dolayı paylaşmak istedim. Altyapıya güncelleme gelmiyecektir.`
 
 <br/>
 
