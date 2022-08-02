@@ -10,11 +10,11 @@
 
 - Botla ilgili detayları `./index.js` dosyasının içinden düzenleyin (28 ile 56.satır arası)
 
-- Bot yeniden başladığında / hazır olduğunda belirli kanala mesaj göndermesini istiyorsanız `./shard.js` dosyasının içini doldurun
+- Bot yeniden başladığında / hazır olduğunda belirli kanala mesaj göndermesini istiyorsanız `./shard.js` dosyasının içini doldurun ve `node shard.js` ile başlatın 
 
 - modülleri indirmek için `npm install` 
 
-- botu başlatmak için `node shard.js`
+- botu başlatmak için `node .`
 
 Altyapı 2021'den kalmıştır minecraft sunucum için bot yaptığımdan dolayı paylaşmak istedim. Altyapıya güncelleme gelmiyecektir.`
 
