@@ -1,2 +1,2 @@
-npm i && node shard.js
+npm i && node .
 bash
