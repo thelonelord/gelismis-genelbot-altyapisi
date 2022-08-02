@@ -6,6 +6,8 @@
   "scripts": {
     "start": "node ."
   },
+  "author": "thelonelord",
+  "license": "MIT",
   "dependencies": {
     "adm-zip": "^0.5.9",
     "axios": "^0.27.2",
@@ -46,9 +48,5 @@
     "string-similarity": "^4.0.4",
     "superagent": "^8.0.0",
     "user-instagram": "^3.0.2"
-  },
-  "engines": {
-    "node": "17.x"
-  },
-  "license": "MIT"
+  }
 }
