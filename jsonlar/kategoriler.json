@@ -1,0 +1,6 @@
+{
+"isim" : ["ahmet", "mehmet"], 
+"bitki": ["gül", "lale"], 
+"hayvan": ["at", "tavuk", "inek"], 
+"şehir": ["adana", "antalya"] 
+}

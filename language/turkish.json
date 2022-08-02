@@ -1,0 +1,26 @@
+{
+  "bilmiyorsan": "Kullanımı Bilmiyorsanız \"dil yardım\" yazınız.",
+
+  "dil": {
+    "kanalb": "Kanal başına sadece bir oyun gerçekleşebilir.",
+    "afk": "Afk moduna geçtiniz. Sebep:",
+    "nosebep": "Sebep girilmemiş",
+    "afk2": "tebrikler!",
+    "args0": "Kullanımı Bilmiyorsanız \"**dil yardım**\" yazınız.",
+    "args1": "Bir Seçenek Belirtiniz \"**en / tr**\"",
+    "adam": "Adam Asmaca",
+    "iyi": "Çok İyisin!",
+    "daat": "Yanlış harf!",
+    "zamann": "Zamanın Doldu!",
+    "tebrik": "Tebrikler Kelimeyi Buldun!",
+    "akelime": "Maalesef adam öldü kelime buydu :",
+    "kelime": "Kelime",
+    "yanlisharf": "Yanlış Harfler :",
+    "yokk": "Yok",
+    "help": "dil değiştir (en/tr)**: Botun Dilini Değiştirir\n"
+  },
+
+  "ping": {
+    "cevap": "`Pingim`"
+  }
+}
