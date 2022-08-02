@@ -2,9 +2,9 @@
   "name": "r8",
   "version": "2.0.2",
   "description": "R8.",
-  "main": "shard.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node shard.js"
+    "start": "node ."
   },
   "dependencies": {
     "adm-zip": "^0.5.9",
