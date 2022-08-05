@@ -39,7 +39,7 @@ module.exports = async member => {
   ctx.clip();
   ctx.drawImage(avatar, 580, 55, 110, 110);
 
-  const attachment = new Discord.MessageAttachment(canvas.toBuffer(), "neonlight.png");
+  const attachment = new Discord.MessageAttachment(canvas.toBuffer(), "giris-g.png");
   if (!member.guild.channels.cache.get(memberChannel)) return;
 
   const embed = new Discord.MessageEmbed()
