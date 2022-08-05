@@ -41,6 +41,3 @@ exports.conf = {
 exports.help = {
   name: 'fake-mesaj',
 };
-/*https://codare.fun/kod?id=25RLtdpzsB adresindeki komudun id ile değil etiketleme ile çalışan hali
-kullanıcının görünen adı ile çalışıyor (yani
-dcdeki adı ahmet ama sunucudaki takma adı ahmet1 ise ahmet 1 olarak çalışır, takma adı yoksa ahmet olarak gözükür) */
