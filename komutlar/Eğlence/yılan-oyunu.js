@@ -7,8 +7,7 @@ const a = require("../../ayarlar.json")
 const cd = new Set();
 
 exports.run = async (client, message, args) => {
-  // const cd = new Set();
-
+  
   if (cd.has(message.author.id)) {
     return message.channel.send(
       new Discord.MessageEmbed()
@@ -47,7 +46,7 @@ exports.conf = {
 
   guildOnly: false,
 
-  aliases: ["snake", "yılan", "yılan-oyunu", "play-snake", "yılan-oyna"],
+  aliases: ["snake-game", "yılan", "yılan-oyunu", "play-snake", "yılan-oyna"],
 
   permLevel: 0
 };
