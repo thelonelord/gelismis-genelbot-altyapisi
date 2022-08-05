@@ -6,15 +6,6 @@ exports.run = (client, message, msg) => {
 
   let prefix = db.fetch(`prefix_${message.guild.id}`) || ayarlar.prefix;
 
-  /*var s = 'tr'
-  var a = client.commands.get('yardım').help.name
-    if(db.has(`dil_${msg.guild.id}`) === true) {
-        var s = 'en'
-        var a = client.commands.get('yardım').help.enname
-    }
-    const dil = client[s]
-    const o = a*/
-
   message.channel.send(
     new Discord.MessageEmbed()
       .setTitle(":video_game: Eğlence Komutları")
@@ -24,6 +15,7 @@ exports.run = (client, message, msg) => {
 **${prefix}sayı-tahmin** = Botun aklında tuttuğu sayıyı bilmeye çalışırsınız.
 **${prefix}yazan-kazanır** = Botun verdiği kelimeyi ilk yazan kazanır oyunu.
 **${prefix}adam-asmaca** = Adam asmaca oynarsın.
+**${prefix}adam-asmacav2** = Kategorili yeni adam asmaca oynarsın.
 **${prefix}xox** = Etiketlediğiniz kullanıcı ile xox oynarsınız. **[BAKIM]**
 **${prefix}mc-başarı** = Minecraft başarı yazısı yazdırırsın.
 **${prefix}mizah** = Mizah oluşturursunuz.
