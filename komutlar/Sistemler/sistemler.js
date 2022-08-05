@@ -10,8 +10,8 @@ exports.run = (client, message, msg) => {
       .setDescription(
         `**${prefix}ayarlar** = Sunucu ayarlarını gösterir. **[BETA]**
 **${prefix}büyükharf-engelle** = Büyük harf engelleme sistemini açıp kapatmanızı sağlar.
-**${prefix}destek-kanal-ayarla** = Gelişmiş Destek Sistemindeki destek kanalını değiştirmenizi sağlar.
-**${prefix}destek-rol-ayarla** = Gelişmiş Destek Sistemindeki destek ekibi rolünü değiştirmenizi sağlar.
+**${prefix}destek-kanal-ayarla** = Gelişmiş Destek Sistemindeki destek kanalını değiştirmenizi sağlar. **[BAKIMDA]**
+**${prefix}destek-rol-ayarla** = Gelişmiş Destek Sistemindeki destek ekibi rolünü değiştirmenizi sağlar. **[BAKIMDA]**
 **${prefix}gelen-giden** = Gelen Giden kanalını ayarla.
 **${prefix}küfür-engelle** = Küfür engelleme sistemini açıp kapatmanızı sağlar.
 **${prefix}reklam-engelle** = Discord Sunucu Reklamlarını Engelleme sistemini açıp kapatmanızı sağlar.
