@@ -9,7 +9,7 @@ try {
 
 const commands = [
 
-`bot\` - Botlar tarafından gönderilen mesajları silin. (insanlarınkini silmez)`, 
+`bot\` - Botlar tarafından gönderilen mesajları silin. (üyelerinkini silmez)`, 
 
 `üye\` - Üyeler tarafından gönderilen mesajları silin. (Botları yoksayar)`,
 
