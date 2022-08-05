@@ -4,6 +4,9 @@
 ## Kurulum
 
 <br/>
+
+***
+
 - **node.js v12 yada üstü gerekir**
 
 - PREFIX, TOKEN, SAHİP VE EMBED RENGİ'ni  `./ayarlar.json` dosyasına yerleştirin
@@ -15,10 +18,6 @@
 - modülleri indirmek için `npm install` 
 
 - botu başlatmak için `node .`
-
-Altyapı 2021'den kalmıştır minecraft sunucum için bot yaptığımdan dolayı paylaşmak istedim. Altyapıya güncelleme gelmiyecektir.`
-
-<br/>
 
 ***
 
