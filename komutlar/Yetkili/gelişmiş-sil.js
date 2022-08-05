@@ -9,27 +9,27 @@ try {
 
 const commands = [
 
-`bots\` - Botlar tarafından gönderilen mesajları silin. (insanlarınkini silmez)`, 
+`bot\` - Botlar tarafından gönderilen mesajları silin. (insanlarınkini silmez)`, 
 
-`humans\` - İnsanlar tarafından gönderilen mesajları silin. (Botları yoksayar)`,
+`üye\` - Üyeler tarafından gönderilen mesajları silin. (Botları yoksayar)`,
 
-`embeds\` - Embed içeren mesajları silin.`,
+`embedler\` - Embed içeren mesajları silin.`,
 
-`files\` - Dosya/resim/ek içeren mesajları silin.`,
+`dosyalar\` - Dosya/resim/ek içeren mesajları silin.`,
 
-`mentions\` - Üye/kullanıcı/kanal/rolden bahsetmeleri içeren mesajları silin.`,
+`etiketler\` - Üye/kullanıcı/kanal/rolden bahsetmeleri içeren mesajları silin.`,
 
-`pins\` - Sabitlenmiş mesajları silin.`,
+`sabitlenmiş\` - Sabitlenmiş mesajları silin.`,
 
-`text\` - Yalnızca metin içeren mesajları silin. (Dosyaları/resimleri/ekleri, yerleştirmeleri yok sayar)`,
+`metin\` - Yalnızca metin içeren mesajları silin. (Dosyaları/resimleri/ekleri, yerleştirmeleri yok sayar)`,
 
-`match\` <text> - Metin içeren mesajları sil.` ,
+`içeren\` <metin> - Metin içeren mesajları sil.` ,
 
-`not\` <text> - Metin içermeyen mesajları silin.`,
+`içermiyen\` <metin> - Metin içermeyen mesajları silin.`,
 
-`startswith\` <text> - Metin ile başlayan mesajları sil.`,
+`başlayan\` <metin> - Metin ile başlayan mesajları sil.`,
 
-`endswith\` <text> - Metin ile biten mesajları sil.`
+`biten\` <metin> - Metin ile biten mesajları sil.`
 
 ]
 
@@ -93,7 +93,7 @@ await message.channel.bulkDelete(amount).then(async (m) => {
 
   switch(args[1]) {
 
-    case "--bots":
+    case "--bot":
 
      msg = await message.channel.messages.fetch({limit: amount})
 
@@ -137,7 +137,7 @@ await message.channel.bulkDelete(amount).then(async (m) => {
 
       break;
 
-     case "--humans":
+     case "--üye":
 
      msg = await message.channel.messages.fetch({limit: amount})
 
@@ -181,7 +181,7 @@ await message.channel.bulkDelete(amount).then(async (m) => {
 
       break;
 
-case "--embeds":
+case "--embedler":
 
      msg = await message.channel.messages.fetch({limit: amount})
 
@@ -225,7 +225,7 @@ case "--embeds":
 
       break;
 
-case "--files":
+case "--dosyalar":
 
      msg = await message.channel.messages.fetch({limit: amount})
 
@@ -267,7 +267,7 @@ case "--files":
 
    }
 
-      break;case "--text":
+      break;case "--metin":
 
     msg = await message.channel.messages.fetch({limit: amount})
 
@@ -311,7 +311,7 @@ case "--files":
 
       break;
 
-  case "--mentions":
+  case "--etiketler":
 
      msg = await message.channel.messages.fetch({limit: amount})
 
@@ -355,7 +355,7 @@ case "--files":
 
       break;
 
-case "--pins":
+case "--sabitlenmiş":
 
     msg = await message.channel.messages.fetch({limit: amount})
 
@@ -399,7 +399,7 @@ case "--pins":
 
       break;
 
-case "--match":
+case "--içeren":
 
      msg = await message.channel.messages.fetch({limit: amount})
 
@@ -447,7 +447,7 @@ if(!args[2]) return message.channel.send(embd);
 
       break;
 
-case "--not":
+case "--içermeyen":
 
     msg = await message.channel.messages.fetch({limit: amount})
 
@@ -493,7 +493,7 @@ if(!args[2]) return message.channel.send(embd);
 
       break;
 
-case "--startswith":
+case "--başlayan":
 
      msg = await message.channel.messages.fetch({limit: amount})
 
@@ -539,7 +539,7 @@ if(!args[2]) return message.channel.send(embd);
 
       break;
 
-case "--endswith":
+case "--biten":
 
      msg = await message.channel.messages.fetch({limit: amount})
 
