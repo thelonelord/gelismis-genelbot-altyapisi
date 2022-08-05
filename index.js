@@ -1,8 +1,8 @@
 const ms = require("parse-ms");
 const Discord = require("discord.js");
 const client = new Discord.Client({
- /* restTimeOffset: 100,
-  messageCacheMaxSize: 50,*/
+ restTimeOffset: 100,
+  messageCacheMaxSize: 50,
     disableMentions: 'everyone'
 });
 require("discord-buttons")(client);
