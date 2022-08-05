@@ -20,9 +20,7 @@ module.exports = async member => {
   const canvas = Canvas.createCanvas(1280, 720);
   const ctx = canvas.getContext("2d");
 
-  const background = await Canvas.loadImage(
-    "https://cdn.discordapp.com/attachments/809498334946656276/849632925879762984/20210602_155536.jpg"
-  );
+  const background = await Canvas.loadImage("https://media.discordapp.net/attachments/1004036160185716776/1004059436274425906/20210602_155536.jpg");
   ctx.drawImage(background, 0, 0, canvas.width, canvas.height);
   ctx.fillStyle = `#ffffff`;
   ctx.font = `80px "SONGER"`;
