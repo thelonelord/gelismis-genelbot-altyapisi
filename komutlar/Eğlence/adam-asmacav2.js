@@ -339,7 +339,7 @@ displayText === null
 exports.conf = {
   enabled: true,
   guildOnly: false,
-  aliases: ['adamasmacav2'],
+  aliases: ['adamasmacav2',"adam-asmacav2"],
   permlevel: 0
 };
 
