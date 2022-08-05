@@ -19,11 +19,9 @@ exports.run = (client, message, msg) => {
 **${prefix}avatar** = Etiketlediğiniz kişinin avatarını gösterir.
 **${prefix}hesapla** = Belirtilen işlemi yapar.
 **${prefix}tdk-ara** = Tdk'den kelime,sözcük ararsınız.
-**${prefix}discrim** = Girdğiniz **0001** gibi hastag'ın kaç kişi kullandığını gösterir.
 **${prefix}takvim** = Dini ve resmi günlere kalan süreyi gösterir.
-<a:takviye8:855424463909814313> **${prefix}son-görülme** = Etiketlediğiniz kullanıcının en son ne zamam discorda girip çıktığını gösterir. **[BAKIM]**
+<a:takviye8:855424463909814313> **${prefix}son-görülme** = Etiketlediğiniz kullanıcının en son ne zamam discorda girip çıktığını gösterir.
 **${prefix}mc-sunucu** = Ip adresini girdiğiniz minecraft sunucusunun bilgilerini gösterir.
-**${prefix}roblox-bilgi** = Roblox ismini girdiğiniz kullanıcının bilgilerini gösterir.
 **${prefix}şifre** = Belirttiğiniz miktarda şifre oluşturur.
 **${prefix}söz** = Rastgele söz gönderir.
 **${prefix}steam** = Belirttiğiniz oyundaki steam bilgilerini gösterir.
