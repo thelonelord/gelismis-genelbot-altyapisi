@@ -39,11 +39,10 @@ exports.run = async (client, message, args) => {
 };
 
 exports.conf = {
-  enabled: true,
+  enabled: false,
   guildOnly: false,
   aliases: ["destek-kanal", "destek-kanal-ayarla"],
   permLevel: 4,
-  kategori: "ayarlar"
 };
 
 exports.help = {
