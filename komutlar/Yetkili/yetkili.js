@@ -25,11 +25,11 @@ exports.run = (client, message, msg) => {
 **${prefix}rol-bilgi** = Etiketlediğiniz veya ismini girdiğiniz rol hakkında bilgi verir. 
 **${prefix}emojiler** =Sunucuda bulunan emojileri gösterir.
 **${prefix}roller** = Sunucudaki tüm rolleri gösterir.
-**${prefix}güvenlik-sorgu** = Etiketlediğniz kişinin güvenliğini sorgular.
+**${prefix}güvenlik-sorgu** = Etiketlediğniz kişinin güvenliğini sorgular. **[BAKIMDA]**
 **${prefix}sıfırla** = Bulduğunuz kanalı siler ve aynı özellikleriyle tekrar açar.
 **${prefix}duyuru** = Girdiğiniz metinle duyuru yapar.
 **${prefix}oylama** = Girdiğiniz metinle oylama yapar.
-<a:takviye8:855424463909814313> **${prefix}snipe** = Son silinen mesajı gösterir.
+**${prefix}snipe** = Son silinen mesajı gösterir.
 **${prefix}sunucu-tanıt** = Sunucunuzu 12 saatte bir tanıtırsınız.
 **${prefix}komut-kapat** = İsmini girdiğiniz komutun sunucunuzda kullanılmasını kapatır.
 **${prefix}komut-aç**= İsmini girdiğiniz komutun sunucunuzda kullanılmasını açar.
