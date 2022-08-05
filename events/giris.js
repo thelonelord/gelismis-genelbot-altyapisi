@@ -18,7 +18,7 @@ module.exports = async member => {
     const canvas = Canvas.createCanvas(700, 250)
     const ctx = canvas.getContext('2d')
     // Load the background image and draw it to the canvas
-    const background = await Canvas.loadImage("https://cdn.discordapp.com/attachments/854725634441216000/854728139728224266/20210616_171635.jpg")
+    const background = await Canvas.loadImage("https://media.discordapp.net/attachments/1004036160185716776/1004059435120996436/20210602_155320.jpg")
     let x = 0
     let y = 0
     ctx.drawImage(background, x, y)
