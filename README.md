@@ -18,6 +18,7 @@
 - modülleri indirmek için `npm install` 
 
 - botu başlatmak için `node .`
+
 Altyapı Discord.js'nin eski sürümde yapılmıştır 2021de yapımını bırakmıştım botu güncellemek için vaktim yok hata olursa herhangi bir destek vermiyeceğim kendi sorumlululuğunuzda kullanın.
 ***
 
