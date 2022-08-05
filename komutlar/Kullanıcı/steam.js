@@ -79,7 +79,7 @@ exports.run = (client, message, args) => {
 
     let steampng = "https://cdn.discordapp.com/attachments/458004691402489856/470344660364034049/steam.png"
 
-    if (!game) return message.reply('Lütfen Steamde Olan Bir Oyunun Adını Yazın. Örnek: `steamfiyat PUBG`')
+    if (!game) return message.reply('Lütfen Steamde Olan Bir Oyunun Adını Yazın.')
 
     provider.search(game).then(result => {
         provider.detail(result[0].id, "turkey", "tr").then(results => {
