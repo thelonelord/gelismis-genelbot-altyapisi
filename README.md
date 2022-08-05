@@ -1,4 +1,4 @@
-# ROO8 Discord Botu Altyapısı
+# Gelişmiş Genel Discord Botu Altyapısı
 
 
 ## Kurulum
